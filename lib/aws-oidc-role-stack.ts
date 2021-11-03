@@ -27,6 +27,9 @@ export class AwsOidcRoleStack extends cdk.Stack {
           'token.actions.githubusercontent.com:sub': props.repo ? `repo:poad/${props.repo}:*` : `repo:poad/*:*`,
         },
       }, 'sts:AssumeRoleWithWebIdentity'),
+      managedPolicies: [ 
+        iam.ManagedPolicy.fromManagedPolicyArn(this, 'AdminAccessPolicy', 'arn:aws:iam::aws:policy/AdministratorAccess')
+      ]
     });
   }
 }
