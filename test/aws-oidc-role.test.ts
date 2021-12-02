@@ -1,13 +1,14 @@
-import { expect as expectCDK, matchTemplate, MatchStyle } from '@aws-cdk/assert';
-import * as cdk from '@aws-cdk/core';
+import { Template } from 'aws-cdk-lib/assertions';
+import * as cdk from 'aws-cdk-lib';
 import * as AwsOidcRole from '../lib/aws-oidc-role-stack';
 
 test('Empty Stack', () => {
-    const app = new cdk.App();
-    // WHEN
-    const stack = new AwsOidcRole.AwsOidcRoleStack(app, 'MyTestStack', {});
-    // THEN
-    expectCDK(stack).to(matchTemplate({
-      "Resources": {}
-    }, MatchStyle.EXACT));
+  const app = new cdk.App();
+  // WHEN
+  const stack = new AwsOidcRole.AwsOidcRoleStack(app, 'MyTestStack', {});
+  // THEN
+  const template = Template.fromStack(stack);
+  template.templateMatches({
+    "Resources": {}
+  })
 });
