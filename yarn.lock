@@ -915,9 +915,9 @@ aws-cdk@^2.1.0:
     yargs "^16.2.0"
 
 aws-sdk@^2.848.0, aws-sdk@^2.979.0:
-  version "2.1045.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1045.0.tgz#4b1b1677aeb3026d7702f3be13e6a16883e554f6"
-  integrity sha512-4ZBIp/qGJKvEjJJKMQvfAovFxrwfweXwbFmAnHAzeJyTw+RB/6HQyGL7JtV6zoHk0DsmYfBBJBvagmDMXpjg/w==
+  version "2.1046.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1046.0.tgz#9147b0fa1c86acbebd1a061e951ab5012f4499d7"
+  integrity sha512-ocwHclMXdIA+NWocUyvp9Ild3/zy2vr5mHp3mTyodf0WU5lzBE8PocCVLSWhMAXLxyia83xv2y5f5AzAcetbqA==
   dependencies:
     buffer "4.9.2"
     events "1.1.1"
@@ -2203,13 +2203,13 @@ jest-regex-util@^27.4.0:
   integrity sha512-WeCpMpNnqJYMQoOjm1nTtsgbR4XHAk1u00qDoNBQoykM280+/TmgA5Qh5giC1ecy6a5d4hbSsHzpBtu5yvlbEg==
 
 jest-resolve-dependencies@^27.4.2:
-  version "27.4.2"
-  resolved "https://registry.yarnpkg.com/jest-resolve-dependencies/-/jest-resolve-dependencies-27.4.2.tgz#2f4f363cca26f75a22aefd496f9c7ae65b3de37f"
-  integrity sha512-hb++cTpqvOWfU49MCP/JQkxmnrhKoAVqXWFjgYXswRSVGk8Q6bDTSvhbCeYXDtXaymY0y7WrrSIlKogClcKJuw==
+  version "27.4.4"
+  resolved "https://registry.yarnpkg.com/jest-resolve-dependencies/-/jest-resolve-dependencies-27.4.4.tgz#dae11e067a6d6a9553f1386a0ea1efe5be0e2332"
+  integrity sha512-iAnpCXh81sd9nbyqySvm5/aV9X6JZKE0dQyFXTC8tptXcdrgS0vjPFy+mEgzPHxXw+tq4TQupuTa0n8OXwRIxw==
   dependencies:
     "@jest/types" "^27.4.2"
     jest-regex-util "^27.4.0"
-    jest-snapshot "^27.4.2"
+    jest-snapshot "^27.4.4"
 
 jest-resolve@^27.4.2, jest-resolve@^27.4.4:
   version "27.4.4"
