@@ -1,4 +1,4 @@
-import * as cdk from 'aws-cdk-lib/core';
+import * as cdk from 'aws-cdk-lib';
 import * as iam from 'aws-cdk-lib/aws-iam';
 import { Construct } from 'constructs';
 
@@ -27,7 +27,8 @@ export class AwsOidcRoleStack extends cdk.Stack {
         StringLike: {
           'token.actions.githubusercontent.com:sub': props.repo ? `repo:poad/${props.repo}:*` : `repo:poad/*:*`,
         },
-      }, 'sts:AssumeRoleWithWebIdentity'),
+      }, 'sts:AssumeRoleWithWebIdentity')
+      .withSessionTags(),
       managedPolicies: [
         iam.ManagedPolicy.fromManagedPolicyArn(this, 'AdminAccessPolicy', 'arn:aws:iam::aws:policy/AdministratorAccess')
       ]
