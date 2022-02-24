@@ -7,9 +7,9 @@ permissions:
   actions: write
   checks: write
   contents: write
-  deployments: none
+  deployments: write
   id-token: write
-  issues: none
+  issues: write
   packages: none
   pull-requests: write
   repository-projects: write
