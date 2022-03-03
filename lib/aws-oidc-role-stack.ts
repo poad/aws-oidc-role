@@ -5,11 +5,14 @@ import { Construct } from 'constructs';
 interface AwsOidcRoleStackProps extends cdk.StackProps {
   repo?: string,
   OIDCProviderArn?: string,
+  roleName: string,
 }
 
 export class AwsOidcRoleStack extends cdk.Stack {
   constructor(scope: Construct, id: string, props: AwsOidcRoleStackProps) {
     super(scope, id, props);
+
+    const { repo, OIDCProviderArn, roleName } = props;
 
     const oidcProvider = new iam.CfnOIDCProvider(this, 'GitHubOIDCProvider', {
       url: 'https://token.actions.githubusercontent.com',
@@ -21,11 +24,12 @@ export class AwsOidcRoleStack extends cdk.Stack {
       ]
     });
 
-    const oidcProviderArn = props.OIDCProviderArn === undefined ? oidcProvider.attrArn : props.OIDCProviderArn;
+    const oidcProviderArn = OIDCProviderArn === undefined ? oidcProvider.attrArn : OIDCProviderArn;
     new iam.Role(this, 'GitHubOIDCRole', {
+      roleName,
       assumedBy: new iam.FederatedPrincipal(oidcProviderArn, {
         StringLike: {
-          'token.actions.githubusercontent.com:sub': props.repo ? `repo:poad/${props.repo}:*` : `repo:poad/*:*`,
+          'token.actions.githubusercontent.com:sub': repo ? `repo:poad/${repo}:*` : `repo:poad/*:*`,
         },
       }, 'sts:AssumeRoleWithWebIdentity')
       .withSessionTags(),

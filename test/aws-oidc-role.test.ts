@@ -5,7 +5,7 @@ import * as AwsOidcRole from '../lib/aws-oidc-role-stack';
 test('Empty Stack', () => {
   const app = new cdk.App();
   // WHEN
-  const stack = new AwsOidcRole.AwsOidcRoleStack(app, 'MyTestStack', {});
+  const stack = new AwsOidcRole.AwsOidcRoleStack(app, 'MyTestStack', {roleName: 'test'});
   // THEN
   const template = Template.fromStack(stack);
   template.templateMatches({
