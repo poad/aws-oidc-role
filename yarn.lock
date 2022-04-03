@@ -747,10 +747,10 @@ at-least-node@^1.0.0:
   resolved "https://registry.yarnpkg.com/at-least-node/-/at-least-node-1.0.0.tgz#602cd4b46e844ad4effc92a8011a3c46e0238dc2"
   integrity sha512-+q/t7Ekv1EDY2l6Gda6LLiX14rU9TV20Wa3ofeQmwPFZbOMo9DXrLbOjFaaclkXKWidIaopwAObQDqwWtGUjqg==
 
-aws-cdk-lib@^2.18.0:
-  version "2.18.0"
-  resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.18.0.tgz#a130edf9d90ec166d5c0f14d275ab49cbbe75261"
-  integrity sha512-4XpEqRgKSzDmcpeNGRqRlnWEltnt5+NoHWKpQDHUsAmyJ2QNQ5dYxVLIReaGiE9H8zS0rlpp3exuDEy0UgKj2Q==
+aws-cdk-lib@^2.19.0:
+  version "2.19.0"
+  resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.19.0.tgz#80c3054dc925c4bc95639c4a2911a8aa6058ca4c"
+  integrity sha512-zt0lAsTpYfrDitjJXp1smEi4o1EYtAAj4fb0WW4GYBW+P6FqymXyAF5mUT8YWPkMJTnSP8d4FeDUyatQVWYRJA==
   dependencies:
     "@balena/dockerignore" "^1.0.2"
     case "1.6.3"
@@ -997,10 +997,10 @@ concat-map@0.0.1:
   resolved "https://registry.yarnpkg.com/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
   integrity sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=
 
-constructs@^10.0.101:
-  version "10.0.101"
-  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.0.101.tgz#dbd4be995cebf117c69fbcbeb1257eb467c99aa8"
-  integrity sha512-phhf91qVARDXp8jx9r63lSY2OqXUlg5KXjFm5UHeXI86YMmUWYUl2GsFOimZ6AW7Hvkre/Gue7D3TrPD69kP0g==
+constructs@^10.0.104:
+  version "10.0.104"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.0.104.tgz#c97bd8807c0c1b8029ddbbeaad64eb12eeb76d6b"
+  integrity sha512-uLGk7YkuqMrnxC4Um8N6OUusfojeloNaUl6Rf0yukCOjAxxRCz3tvVnlZdyNk6AL9tnaC/C+hQLIY6Hhayxi8A==
 
 convert-source-map@^1.4.0, convert-source-map@^1.6.0, convert-source-map@^1.7.0:
   version "1.8.0"
