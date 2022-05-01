@@ -286,6 +286,14 @@
     "@babel/helper-validator-identifier" "^7.16.7"
     to-fast-properties "^2.0.0"
 
+"@babel/types@^7.16.7", "@babel/types@^7.17.0", "@babel/types@^7.17.10", "@babel/types@^7.3.0", "@babel/types@^7.3.3":
+  version "7.17.10"
+  resolved "https://registry.yarnpkg.com/@babel/types/-/types-7.17.10.tgz#d35d7b4467e439fcf06d195f8100e0fea7fc82c4"
+  integrity sha512-9O26jG0mBYfGkUYCYZRnBwbVLd1UZOICEr2Em6InB6jVfsAv1GKgwXHmrSg+WFWDmeKTA6vyTZiN8tCSM5Oo3A==
+  dependencies:
+    "@babel/helper-validator-identifier" "^7.16.7"
+    to-fast-properties "^2.0.0"
+
 "@balena/dockerignore@^1.0.2":
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/@balena/dockerignore/-/dockerignore-1.0.2.tgz#9ffe4726915251e8eb69f44ef3547e0da2c03e0d"
@@ -481,6 +489,27 @@
     graceful-fs "^4.2.9"
     jest-haste-map "^28.0.2"
     slash "^3.0.0"
+
+"@jest/transform@^28.0.3":
+  version "28.0.3"
+  resolved "https://registry.yarnpkg.com/@jest/transform/-/transform-28.0.3.tgz#591fb5ebc1d84db5c5f21e1225c7406c35f5eb1e"
+  integrity sha512-+Y0ikI7SwoW/YbK8t9oKwC70h4X2Gd0OVuz5tctRvSV/EDQU00AAkoqevXgPSSFimUmp/sp7Yl8s/1bExDqOIg==
+  dependencies:
+    "@babel/core" "^7.11.6"
+    "@jest/types" "^28.0.2"
+    "@jridgewell/trace-mapping" "^0.3.7"
+    babel-plugin-istanbul "^6.1.1"
+    chalk "^4.0.0"
+    convert-source-map "^1.4.0"
+    fast-json-stable-stringify "^2.0.0"
+    graceful-fs "^4.2.9"
+    jest-haste-map "^28.0.2"
+    jest-regex-util "^28.0.2"
+    jest-util "^28.0.2"
+    micromatch "^4.0.4"
+    pirates "^4.0.4"
+    slash "^3.0.0"
+    write-file-atomic "^4.0.1"
 
 "@jest/transform@^28.0.3":
   version "28.0.3"
@@ -1001,9 +1030,9 @@ concat-map@0.0.1:
   integrity sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=
 
 constructs@*:
-  version "10.0.127"
-  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.0.127.tgz#b158a5776aca74613d9120a77afb555091179afd"
-  integrity sha512-g/jXdannzQ2HiDq9K+Wu/szBuIDgehMTPKIHHWnIJsdFinGOjHohyAnZXlkR2h5bhLE9BCekWWN692FiCwCraA==
+  version "10.0.129"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.0.129.tgz#57c6e2b488c5cf18881b79b3d0e261d8b36285f7"
+  integrity sha512-9FLIYQm9tQ+86+zwlHpFpIIUKFOIdAvahvBkSNrbvIthHJxb9SXGa1QmbfjEcNfLakLEhu0CuefHQo2Qg4z7BA==
 
 convert-source-map@^1.4.0, convert-source-map@^1.6.0, convert-source-map@^1.7.0:
   version "1.8.0"
@@ -2311,9 +2340,9 @@ type-fest@^0.21.3:
   integrity sha512-t0rzBq87m3fVcduHDUFhKmyyX+9eo6WQjZvf51Ea/M0Q7+T374Jp1aUiyUl0GKxp8M/OETVHSDvmkyPgvX+X2w==
 
 typescript@*:
-  version "4.6.3"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.6.3.tgz#eefeafa6afdd31d725584c67a0eaba80f6fc6c6c"
-  integrity sha512-yNIatDa5iaofVozS/uQJEl3JRWLKKGJKh6Yaiv0GLGSuhpFJe7P3SbHZ8/yjAHRQwKRoA6YZqlfjXWmVzoVSMw==
+  version "4.6.4"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.6.4.tgz#caa78bbc3a59e6a5c510d35703f6a09877ce45e9"
+  integrity sha512-9ia/jWHIEbo49HfjrLGfKbZSuWo9iTMwXO+Ca3pRsSpbsMbc7/IU8NKdCZVRRBafVPGnoJeFL76ZOAA84I9fEg==
 
 universalify@^2.0.0:
   version "2.0.0"
