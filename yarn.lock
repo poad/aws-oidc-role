@@ -331,6 +331,18 @@
     jest-util "^28.0.2"
     slash "^3.0.0"
 
+"@jest/console@^28.1.0":
+  version "28.1.0"
+  resolved "https://registry.yarnpkg.com/@jest/console/-/console-28.1.0.tgz#db78222c3d3b0c1db82f1b9de51094c2aaff2176"
+  integrity sha512-tscn3dlJFGay47kb4qVruQg/XWlmvU0xp3EJOjzzY+sBaI+YgwKcvAmTcyYU7xEiLLIY5HCdWRooAL8dqkFlDA==
+  dependencies:
+    "@jest/types" "^28.1.0"
+    "@types/node" "*"
+    chalk "^4.0.0"
+    jest-message-util "^28.1.0"
+    jest-util "^28.1.0"
+    slash "^3.0.0"
+
 "@jest/core@^28.0.3":
   version "28.0.3"
   resolved "https://registry.yarnpkg.com/@jest/core/-/core-28.0.3.tgz#2b8223914ef6ae16ff740e65235ef8ef49c46d52"
@@ -457,13 +469,13 @@
     callsites "^3.0.0"
     graceful-fs "^4.2.9"
 
-"@jest/test-result@^28.0.2":
-  version "28.0.2"
-  resolved "https://registry.yarnpkg.com/@jest/test-result/-/test-result-28.0.2.tgz#bc8e15a95347e3c2149572ae06a5a6fed939c522"
-  integrity sha512-4EUqgjq9VzyUiVTvZfI9IRJD6t3NYBNP4f+Eq8Zr93+hkJ0RrGU4OBTw8tfNzidKX+bmuYzn8FxqpxOPIGGCMA==
+"@jest/test-result@^28.0.2", "@jest/test-result@^28.1.0":
+  version "28.1.0"
+  resolved "https://registry.yarnpkg.com/@jest/test-result/-/test-result-28.1.0.tgz#fd149dee123510dd2fcadbbf5f0020f98ad7f12c"
+  integrity sha512-sBBFIyoPzrZho3N+80P35A5oAkSKlGfsEFfXFWuPGBsW40UAjCkGakZhn4UQK4iQlW2vgCDMRDOob9FGKV8YoQ==
   dependencies:
-    "@jest/console" "^28.0.2"
-    "@jest/types" "^28.0.2"
+    "@jest/console" "^28.1.0"
+    "@jest/types" "^28.1.0"
     "@types/istanbul-lib-coverage" "^2.0.0"
     collect-v8-coverage "^1.0.0"
 
@@ -498,19 +510,7 @@
     slash "^3.0.0"
     write-file-atomic "^4.0.1"
 
-"@jest/types@^28.0.2":
-  version "28.0.2"
-  resolved "https://registry.yarnpkg.com/@jest/types/-/types-28.0.2.tgz#70b9538c1863fb060b2f438ca008b5563d00c5b4"
-  integrity sha512-hi3jUdm9iht7I2yrV5C4s3ucCJHUP8Eh3W6rQ1s4n/Qw9rQgsda4eqCt+r3BKRi7klVmZfQlMx1nGlzNMP2d8A==
-  dependencies:
-    "@jest/schemas" "^28.0.2"
-    "@types/istanbul-lib-coverage" "^2.0.0"
-    "@types/istanbul-reports" "^3.0.0"
-    "@types/node" "*"
-    "@types/yargs" "^17.0.8"
-    chalk "^4.0.0"
-
-"@jest/types@^28.1.0":
+"@jest/types@^28.0.2", "@jest/types@^28.1.0":
   version "28.1.0"
   resolved "https://registry.yarnpkg.com/@jest/types/-/types-28.1.0.tgz#508327a89976cbf9bd3e1cc74641a29fd7dfd519"
   integrity sha512-xmEggMPr317MIOjjDoZ4ejCSr9Lpbt/u34+dvc99t7DS8YirW5rwZEhzKPC2BMUFkUhI48qs6qLUSGw5FuL0GA==
@@ -1557,6 +1557,21 @@ jest-message-util@^28.0.2:
     slash "^3.0.0"
     stack-utils "^2.0.3"
 
+jest-message-util@^28.1.0:
+  version "28.1.0"
+  resolved "https://registry.yarnpkg.com/jest-message-util/-/jest-message-util-28.1.0.tgz#7e8f0b9049e948e7b94c2a52731166774ba7d0af"
+  integrity sha512-RpA8mpaJ/B2HphDMiDlrAZdDytkmwFqgjDZovM21F35lHGeUeCvYmm6W+sbQ0ydaLpg5bFAUuWG1cjqOl8vqrw==
+  dependencies:
+    "@babel/code-frame" "^7.12.13"
+    "@jest/types" "^28.1.0"
+    "@types/stack-utils" "^2.0.0"
+    chalk "^4.0.0"
+    graceful-fs "^4.2.9"
+    micromatch "^4.0.4"
+    pretty-format "^28.1.0"
+    slash "^3.0.0"
+    stack-utils "^2.0.3"
+
 jest-mock@^28.0.2:
   version "28.0.2"
   resolved "https://registry.yarnpkg.com/jest-mock/-/jest-mock-28.0.2.tgz#059b500b34c1dd76474ebcdeccc249fe4dd0249f"
@@ -1707,17 +1722,17 @@ jest-validate@^28.0.2, jest-validate@^28.1.0:
     pretty-format "^28.1.0"
 
 jest-watcher@^28.0.2:
-  version "28.0.2"
-  resolved "https://registry.yarnpkg.com/jest-watcher/-/jest-watcher-28.0.2.tgz#649fa24df531d4071be5784b6274d494d788c88b"
-  integrity sha512-uIVJLpQ/5VTGQWBiBatHsi7jrCqHjHl0e0dFHMWzwuIfUbdW/muk0DtSr0fteY2T7QTFylv+7a5Rm8sBKrE12Q==
+  version "28.1.0"
+  resolved "https://registry.yarnpkg.com/jest-watcher/-/jest-watcher-28.1.0.tgz#aaa7b4164a4e77eeb5f7d7b25ede5e7b4e9c9aaf"
+  integrity sha512-tNHMtfLE8Njcr2IRS+5rXYA4BhU90gAOwI9frTGOqd+jX0P/Au/JfRSNqsf5nUTcWdbVYuLxS1KjnzILSoR5hA==
   dependencies:
-    "@jest/test-result" "^28.0.2"
-    "@jest/types" "^28.0.2"
+    "@jest/test-result" "^28.1.0"
+    "@jest/types" "^28.1.0"
     "@types/node" "*"
     ansi-escapes "^4.2.1"
     chalk "^4.0.0"
     emittery "^0.10.2"
-    jest-util "^28.0.2"
+    jest-util "^28.1.0"
     string-length "^4.0.1"
 
 jest-worker@^28.0.2, jest-worker@^28.1.0:
