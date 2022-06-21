@@ -2254,9 +2254,9 @@ universalify@^2.0.0:
   integrity sha512-hAZsKq7Yy11Zu1DE0OzWjw7nnLZmJZYTDZZyEFHZdUhV8FkH5MCfoU1XMaxXovpyW5nq5scPqq0ZDP9Zyl04oQ==
 
 update-browserslist-db@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/update-browserslist-db/-/update-browserslist-db-1.0.0.tgz#b40e6d558e0b39ec4b1638532e54b8659a86d467"
-  integrity sha512-3Y+NfVggCCf5OmVvHx9vI4TqOp0gqiSUHcwyUr1I4n+KQ7CruV1z8kRx3FbPLpp6vN/wR6w1mZqe20N1ozobzg==
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/update-browserslist-db/-/update-browserslist-db-1.0.1.tgz#a0351feafc34b84536269b2a488c1694a0c07933"
+  integrity sha512-mCGnDiLaRV8H+6X3bCVfBf+l7c7BitGcwmf9feRaLPqkGXKgyRbhA+RlDLTY7fvXH3bPOYu24giQe1EtJm4ThA==
   dependencies:
     escalade "^3.1.1"
     picocolors "^1.0.0"
