@@ -1557,19 +1557,19 @@ jest-get-type@^29.0.0:
   integrity sha512-83X19z/HuLKYXYHskZlBAShO7UfLFXu/vWajw9ZNJASN32li8yHMaVGAQqxFW1RCFOkB7cubaL6FaJVQqqJLSw==
 
 jest-haste-map@^29.0.0:
-  version "29.0.0"
-  resolved "https://registry.yarnpkg.com/jest-haste-map/-/jest-haste-map-29.0.0.tgz#52078a615aaa8a3ef017903e43cd413894fca768"
-  integrity sha512-mLyDt2WyNU0DZ64s7kRFkFJzrHEuXIxG+OKOs9/P5s1W7NzXE+P7SvLbxjz2Cg63cJjuglYRrD6fZcYf19T8Lw==
+  version "29.0.1"
+  resolved "https://registry.yarnpkg.com/jest-haste-map/-/jest-haste-map-29.0.1.tgz#472212f93ef44309bf97d191f93ddd2e41169615"
+  integrity sha512-gcKOAydafpGoSBvcj/mGCfhOKO8fRLkAeee1KXGdcJ1Pb9O2nnOl4I8bQSIID2MaZeMHtLLgNboukh/pUGkBtg==
   dependencies:
-    "@jest/types" "^29.0.0"
+    "@jest/types" "^29.0.1"
     "@types/graceful-fs" "^4.1.3"
     "@types/node" "*"
     anymatch "^3.0.3"
     fb-watchman "^2.0.0"
     graceful-fs "^4.2.9"
     jest-regex-util "^29.0.0"
-    jest-util "^29.0.0"
-    jest-worker "^29.0.0"
+    jest-util "^29.0.1"
+    jest-worker "^29.0.1"
     micromatch "^4.0.4"
     walker "^1.0.8"
   optionalDependencies:
@@ -1824,10 +1824,10 @@ jest-watcher@^29.0.0:
     jest-util "^29.0.1"
     string-length "^4.0.1"
 
-jest-worker@^29.0.0:
-  version "29.0.0"
-  resolved "https://registry.yarnpkg.com/jest-worker/-/jest-worker-29.0.0.tgz#a1c7b67b2d9ce057383999b32d8b71794efcd0b9"
-  integrity sha512-2t9Panx3F9N1wAvRuZT7xLEptRFc1C5G90DOHniIGz1JIgF9uhd5u8jNBsc7wN63lhnaiLeVLnNx21wT7OVFEQ==
+jest-worker@^29.0.0, jest-worker@^29.0.1:
+  version "29.0.1"
+  resolved "https://registry.yarnpkg.com/jest-worker/-/jest-worker-29.0.1.tgz#fb42ff7e05e0573f330ec0cf781fc545dcd11a31"
+  integrity sha512-+B/2/8WW7goit7qVezG9vnI1QP3dlmuzi2W0zxazAQQ8dcDIA63dDn6j4pjOGBARha/ZevcwYQtNIzCySbS7fQ==
   dependencies:
     "@types/node" "*"
     merge-stream "^2.0.0"
