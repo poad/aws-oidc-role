@@ -337,7 +337,7 @@
     jest-util "^29.1.0"
     slash "^3.0.0"
 
-"@jest/core@^29.0.3", "@jest/core@^29.1.1":
+"@jest/core@^29.1.1":
   version "29.1.1"
   resolved "https://registry.yarnpkg.com/@jest/core/-/core-29.1.1.tgz#a7e5f86dd29fa9da1ca84752237735dc7bcda3d8"
   integrity sha512-ppym+PLiuSmvU9ufXVb/8OtHUPcjW+bBlb8CLh6oMATgJtCE3fjDYrzJi5u1uX8q9jbmtQ7VADKJKIlp68zi3A==
@@ -380,13 +380,6 @@
     "@jest/types" "^29.1.0"
     "@types/node" "*"
     jest-mock "^29.1.1"
-
-"@jest/expect-utils@^29.0.3":
-  version "29.0.3"
-  resolved "https://registry.yarnpkg.com/@jest/expect-utils/-/expect-utils-29.0.3.tgz#f5bb86f5565bf2dacfca31ccbd887684936045b2"
-  integrity sha512-i1xUkau7K/63MpdwiRqaxgZOjxYs4f0WMTGJnYwUKubsNRZSeQbLorS7+I4uXVF9KQ5r61BUPAUMZ7Lf66l64Q==
-  dependencies:
-    jest-get-type "^29.0.0"
 
 "@jest/expect-utils@^29.1.0":
   version "29.1.0"
@@ -513,7 +506,7 @@
     slash "^3.0.0"
     write-file-atomic "^4.0.1"
 
-"@jest/types@^29.0.3", "@jest/types@^29.1.0":
+"@jest/types@^29.1.0":
   version "29.1.0"
   resolved "https://registry.yarnpkg.com/@jest/types/-/types-29.1.0.tgz#db23d727ce0a95500749551d8724fb3526d1e903"
   integrity sha512-lE30u3z4lbTOqf5D7fDdoco3Qd8H6F/t73nLOswU4x+7VhgDQMX5y007IMqrKjFHdnpslaYymVFhWX+ttXNARQ==
@@ -1128,18 +1121,7 @@ exit@^0.1.2:
   resolved "https://registry.yarnpkg.com/exit/-/exit-0.1.2.tgz#0632638f8d877cc82107d30a0fff1a17cba1cd0c"
   integrity sha512-Zk/eNKV2zbjpKzrsQ+n1G6poVbErQxJ0LBOJXaKZ1EViLzH+hrLu9cdXI4zw9dBQJslwBEpbQ2P1oS7nDxs6jQ==
 
-expect@^29.0.0:
-  version "29.0.3"
-  resolved "https://registry.yarnpkg.com/expect/-/expect-29.0.3.tgz#6be65ddb945202f143c4e07c083f4f39f3bd326f"
-  integrity sha512-t8l5DTws3212VbmPL+tBFXhjRHLmctHB0oQbL8eUc6S7NzZtYUhycrFO9mkxA0ZUC6FAWdNi7JchJSkODtcu1Q==
-  dependencies:
-    "@jest/expect-utils" "^29.0.3"
-    jest-get-type "^29.0.0"
-    jest-matcher-utils "^29.0.3"
-    jest-message-util "^29.0.3"
-    jest-util "^29.0.3"
-
-expect@^29.1.0:
+expect@^29.0.0, expect@^29.1.0:
   version "29.1.0"
   resolved "https://registry.yarnpkg.com/expect/-/expect-29.1.0.tgz#0e20a72cf4b2cfb8ca5e2ab138c23c5078c37460"
   integrity sha512-1NCfR0FEArn9Vq1KEjhPd1rggRLiWgo87gfMK4iKn6DcVzJBRMyDNX22hyND5KiSRPIPQ5KtsY6HLxsQ0MU86w==
@@ -1414,7 +1396,7 @@ jest-circus@^29.1.1:
     slash "^3.0.0"
     stack-utils "^2.0.3"
 
-jest-cli@^29.0.3:
+jest-cli@^29.1.1:
   version "29.1.1"
   resolved "https://registry.yarnpkg.com/jest-cli/-/jest-cli-29.1.1.tgz#6ff79c0b2d1d062f24216d2bcbf6c01a1e41db21"
   integrity sha512-nz/JNtqDFf49R2KgeZ9+6Zl1uxSuRsg/tICC+DHMh+bQ0co6QqBPWKg3FtW4534bs8/J2YqFC2Lct9DZR24z0Q==
@@ -1532,7 +1514,7 @@ jest-leak-detector@^29.1.0:
     jest-get-type "^29.0.0"
     pretty-format "^29.1.0"
 
-jest-matcher-utils@^29.0.3, jest-matcher-utils@^29.1.0:
+jest-matcher-utils@^29.1.0:
   version "29.1.0"
   resolved "https://registry.yarnpkg.com/jest-matcher-utils/-/jest-matcher-utils-29.1.0.tgz#60f53cc199921ece9170d3d20500ae0b93294928"
   integrity sha512-pfthsLu27kZg+T1XTUGvox0r3gP3KtqdMPliVd/bs6iDrZ9Z6yJgLbw6zNc4DHtCcyzq9UW0jmszCX8DdFU/wA==
@@ -1541,21 +1523,6 @@ jest-matcher-utils@^29.0.3, jest-matcher-utils@^29.1.0:
     jest-diff "^29.1.0"
     jest-get-type "^29.0.0"
     pretty-format "^29.1.0"
-
-jest-message-util@^29.0.3:
-  version "29.0.3"
-  resolved "https://registry.yarnpkg.com/jest-message-util/-/jest-message-util-29.0.3.tgz#f0254e1ffad21890c78355726202cc91d0a40ea8"
-  integrity sha512-7T8JiUTtDfppojosORAflABfLsLKMLkBHSWkjNQrjIltGoDzNGn7wEPOSfjqYAGTYME65esQzMJxGDjuLBKdOg==
-  dependencies:
-    "@babel/code-frame" "^7.12.13"
-    "@jest/types" "^29.0.3"
-    "@types/stack-utils" "^2.0.0"
-    chalk "^4.0.0"
-    graceful-fs "^4.2.9"
-    micromatch "^4.0.4"
-    pretty-format "^29.0.3"
-    slash "^3.0.0"
-    stack-utils "^2.0.3"
 
 jest-message-util@^29.1.0:
   version "29.1.0"
@@ -1699,7 +1666,7 @@ jest-snapshot@^29.1.0:
     pretty-format "^29.1.0"
     semver "^7.3.5"
 
-jest-util@^29.0.0, jest-util@^29.0.3, jest-util@^29.1.0:
+jest-util@^29.0.0, jest-util@^29.1.0:
   version "29.1.0"
   resolved "https://registry.yarnpkg.com/jest-util/-/jest-util-29.1.0.tgz#e8a971dfb900bb85f090c752aa321b6912e81002"
   integrity sha512-5haD8egMAEAq/e8ritN2Gr1WjLYtXi4udAIZB22GnKlv/2MHkbCjcyjgDBmyezAMMeQKGfoaaDsWCmVlnHZ1WQ==
@@ -1747,14 +1714,14 @@ jest-worker@^29.1.0:
     supports-color "^8.0.0"
 
 jest@*:
-  version "29.0.3"
-  resolved "https://registry.yarnpkg.com/jest/-/jest-29.0.3.tgz#5227a0596d30791b2649eea347e4aa97f734944d"
-  integrity sha512-ElgUtJBLgXM1E8L6K1RW1T96R897YY/3lRYqq9uVcPWtP2AAl/nQ16IYDh/FzQOOQ12VEuLdcPU83mbhG2C3PQ==
+  version "29.1.1"
+  resolved "https://registry.yarnpkg.com/jest/-/jest-29.1.1.tgz#22d9d828f01335ec17225bcb267fe669319983be"
+  integrity sha512-Doe41PZ8MvGLtOZIW2RIVu94wa7jm/N775BBloVXk/G/vV6VYnDCOxBwrqekEgrd3Pn/bv8b5UdB2x0pAoQpwQ==
   dependencies:
-    "@jest/core" "^29.0.3"
-    "@jest/types" "^29.0.3"
+    "@jest/core" "^29.1.1"
+    "@jest/types" "^29.1.0"
     import-local "^3.0.2"
-    jest-cli "^29.0.3"
+    jest-cli "^29.1.1"
 
 js-tokens@^4.0.0:
   version "4.0.0"
@@ -2000,7 +1967,7 @@ pkg-dir@^4.2.0:
   dependencies:
     find-up "^4.0.0"
 
-pretty-format@^29.0.0, pretty-format@^29.0.3, pretty-format@^29.1.0:
+pretty-format@^29.0.0, pretty-format@^29.1.0:
   version "29.1.0"
   resolved "https://registry.yarnpkg.com/pretty-format/-/pretty-format-29.1.0.tgz#ea3de2feed5b8d19c537a12fe478ddc8b45da6b8"
   integrity sha512-dZ21z0UjKVSiEkrPAt2nJnGfrtYMFBlNW4wTkJsIp9oB5A8SUQ8DuJ9EUgAvYyNfMeoGmKiDnpJvM489jkzdSQ==
@@ -2286,9 +2253,9 @@ type-fest@^0.21.3:
   integrity sha512-t0rzBq87m3fVcduHDUFhKmyyX+9eo6WQjZvf51Ea/M0Q7+T374Jp1aUiyUl0GKxp8M/OETVHSDvmkyPgvX+X2w==
 
 typescript@*:
-  version "4.8.3"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.8.3.tgz#d59344522c4bc464a65a730ac695007fdb66dd88"
-  integrity sha512-goMHfm00nWPa8UvR/CPSvykqf6dVV8x/dp0c5mFTMTIu0u0FlGWRioyy7Nn0PGAdHxpJZnuO/ut+PpQ8UiHAig==
+  version "4.8.4"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.8.4.tgz#c464abca159669597be5f96b8943500b238e60e6"
+  integrity sha512-QCh+85mCy+h0IGff8r5XWzOVSbBO+KfeYrMQh7NJ58QujwcE22u+NUSmUxqF+un70P9GXKxa2HCNiTTMJknyjQ==
 
 universalify@^2.0.0:
   version "2.0.0"
