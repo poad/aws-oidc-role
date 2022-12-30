@@ -11,10 +11,13 @@
     "cdk": "cdk"
   },
   "devDependencies": {
+    "@swc/core": "^1.3.24",
+    "@swc/helpers": "^0.4.14",
     "@types/jest": "*",
     "@types/node": "*",
     "aws-cdk": "*",
     "jest": "*",
+    "regenerator-runtime": "*",
     "ts-jest": "*",
     "ts-node": "*",
     "typescript": "*"
