@@ -7,18 +7,14 @@
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
-    "test": "jest",
     "cdk": "cdk"
   },
   "devDependencies": {
     "@swc/core": "*",
     "@swc/helpers": "*",
-    "@types/jest": "*",
     "@types/node": "*",
     "aws-cdk": "*",
-    "jest": "*",
     "regenerator-runtime": "*",
-    "ts-jest": "*",
     "ts-node": "*",
     "typescript": "*"
   },
@@ -26,20 +22,5 @@
     "aws-cdk-lib": "*",
     "constructs": "*",
     "source-map-support": "*"
-  },
-  "resolutions": {
-    "json5": ">=2.2.2"
-  },
-  "jest": {
-    "testEnvironment": "node",
-    "roots": [
-      "<rootDir>/test"
-    ],
-    "testMatch": [
-      "**/*.test.ts"
-    ],
-    "transform": {
-      "^.+\\.tsx?$": "ts-jest"
-    }
   }
 }
