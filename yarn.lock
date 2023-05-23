@@ -3,9 +3,9 @@
 
 
 "@aws-cdk/asset-awscli-v1@^2.2.177":
-  version "2.2.181"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-awscli-v1/-/asset-awscli-v1-2.2.181.tgz#cd90da722e3049bfc5aa64ce5a60ac08f9a0d931"
-  integrity sha512-4oeRr7OrxI4qTH3rN/VsEwUbQZ/cvy/fHGvb5ks2DYKCBGuCzg74ufYwBZU7+mIrjN3CIxhTiRUs7f6LRZzd5w==
+  version "2.2.183"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-awscli-v1/-/asset-awscli-v1-2.2.183.tgz#f93480aa279a0a87219c6abc5cf1f36e80a3193f"
+  integrity sha512-D+E0drcgCjDn43GjsATIpkMeZlFoQFmf86GSlIF0AtNyl0IVrNKsKs/7J4oESrCTTCLL/x9vS7mG9e1ZrKbLpw==
 
 "@aws-cdk/asset-kubectl-v20@^2.1.1":
   version "2.1.1"
@@ -254,9 +254,9 @@ concat-map@0.0.1:
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
 
 constructs@*:
-  version "10.2.30"
-  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.2.30.tgz#f95a3a0f78190ee02cb33ee35d5155a308a6e69f"
-  integrity sha512-nPDBBANnrrTE91ftBGl+OJ2vaKL8f9D3jSEXnggl+9VdztESahhmE+4n/HoRqvduD65eCaFNRbY3OT9fGKmTyA==
+  version "10.2.31"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.2.31.tgz#e04dac2fb6a6b960153c09f5ef50c7eaa2bf4d05"
+  integrity sha512-r49ORPNWmPXAVWADpqKjhL+Pa9m9AgaSrUfI4U7w7whhY4Eg2+2E4TSAdssam05WCFl59HiTd2aW5DikrNyycA==
 
 create-require@^1.1.0:
   version "1.1.1"
