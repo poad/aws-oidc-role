@@ -25,11 +25,20 @@ jobs:
   test:
     strategy:
       matrix:
-        node-version: [16.x]
+        node-version: [18.x]
 
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - uses: pnpm/action-setup@v2
+        name: Install pnpm
+        id: pnpm-install
+        with:
+          version: 8.6.3
+          run_install: |
+            - recursive: true
+              args: [--no-frozen-lockfile, --strict-peer-dependencies]
+
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3.6.0
         with:
@@ -37,6 +46,4 @@ jobs:
           check-latest: true
 
       - name: Build
-        run: |
-          yarn install
-          yarn build
+        run: pnpm build
