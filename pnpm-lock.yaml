@@ -277,7 +277,7 @@ packages:
       jsonschema: 1.4.1
       minimatch: 3.1.2
       punycode: 2.3.0
-      semver: 7.5.3
+      semver: 7.5.4
       table: 6.8.1
       yaml: 1.10.2
     dev: false
@@ -440,8 +440,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: false
 
-  /semver@7.5.3:
-    resolution: {integrity: sha512-QBlUtyVk/5EeHbi7X0fw6liDZc7BBmEaSYn01fMU1OUYbf6GPsbTtd8WmnqbI20SeycoHSeiybkE/q1Q+qlThQ==}
+  /semver@7.5.4:
+    resolution: {integrity: sha512-1bCSESV6Pv+i21Hvpxp3Dx+pSD8lIPt8uVjRrxAUt/nbswYc+tK6Y2btiULjd4+fnq15PX+nqQDC7Oft7WkwcA==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
