@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   aws-cdk-lib:
-    specifier: ^2.100.0
-    version: 2.100.0(constructs@10.3.0)
+    specifier: ^2.101.0
+    version: 2.101.0(constructs@10.3.0)
   constructs:
     specifier: ^10.3.0
     version: 10.3.0
@@ -17,14 +17,14 @@ dependencies:
 
 devDependencies:
   '@types/node':
-    specifier: ^20.8.4
-    version: 20.8.4
+    specifier: ^20.8.6
+    version: 20.8.6
   aws-cdk:
-    specifier: ^2.100.0
-    version: 2.100.0
+    specifier: ^2.101.0
+    version: 2.101.0
   ts-node:
     specifier: ^10.9.1
-    version: 10.9.1(@types/node@20.8.4)(typescript@5.2.2)
+    version: 10.9.1(@types/node@20.8.6)(typescript@5.2.2)
   typescript:
     specifier: ^5.2.2
     version: 5.2.2
@@ -86,8 +86,8 @@ packages:
     resolution: {integrity: sha512-vxhUy4J8lyeyinH7Azl1pdd43GJhZH/tP2weN8TntQblOY+A0XbT8DJk1/oCPuOOyg/Ja757rG0CgHcWC8OfMA==}
     dev: true
 
-  /@types/node@20.8.4:
-    resolution: {integrity: sha512-ZVPnqU58giiCjSxjVUESDtdPk4QR5WQhhINbc9UBrKLU68MX5BF6kbQzTrkwbolyr0X8ChBpXfavr5mZFKZQ5A==}
+  /@types/node@20.8.6:
+    resolution: {integrity: sha512-eWO4K2Ji70QzKUqRy6oyJWUeB7+g2cRagT3T/nxYibYcT4y2BDL8lqolRXjTHmkZCdJfIPaY73KbJAZmcryxTQ==}
     dependencies:
       undici-types: 5.25.3
     dev: true
@@ -133,8 +133,8 @@ packages:
     engines: {node: '>=8'}
     dev: false
 
-  /aws-cdk-lib@2.100.0(constructs@10.3.0):
-    resolution: {integrity: sha512-oWDPcbdqD69wDIUvcGdbDxmKcDfkCg515wf8JkiQLnhAI/AFyKAVTEWhbSUi00lvJQNUjX8Mal2lbKlCRA4hjQ==}
+  /aws-cdk-lib@2.101.0(constructs@10.3.0):
+    resolution: {integrity: sha512-M/KVfpasKNoTFUJ3MG72f58GqzKu834VOYmv7DXw6Kzlf5i7daehAJNmR1NYoA6FhSmM/R8xSJ+5kxZJDB62tA==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
       constructs: ^10.0.0
@@ -166,8 +166,8 @@ packages:
       - table
       - yaml
 
-  /aws-cdk@2.100.0:
-    resolution: {integrity: sha512-Gt/4wPuEiBYw2tl0+cN0EbLxxJEvltcJxSQAcVHgNbqvDj49KUJ/oCbZ335dF0gK/hrVVb70xfNiYbBSPOsmvg==}
+  /aws-cdk@2.101.0:
+    resolution: {integrity: sha512-cPLmHP2HGZVj74o3rvcnTwJ7v3wuy95jZgNN/WUMqNZpf+DTDDkmk968bydb+CBKYwpXzqRWITG0eKRt9L1EZA==}
     engines: {node: '>= 14.15.0'}
     hasBin: true
     optionalDependencies:
@@ -365,7 +365,7 @@ packages:
       strip-ansi: 6.0.1
     dev: false
 
-  /ts-node@10.9.1(@types/node@20.8.4)(typescript@5.2.2):
+  /ts-node@10.9.1(@types/node@20.8.6)(typescript@5.2.2):
     resolution: {integrity: sha512-NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw==}
     hasBin: true
     peerDependencies:
@@ -384,7 +384,7 @@ packages:
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 20.8.4
+      '@types/node': 20.8.6
       acorn: 8.10.0
       acorn-walk: 8.2.0
       arg: 4.1.3
