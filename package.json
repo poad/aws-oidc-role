@@ -20,7 +20,6 @@
     "constructs": "^10.3.0",
     "source-map-support": "^0.5.21"
   },
-  "packageManager": "pnpm@8.7.4",
   "engines": {
     "npm": "use pnpm please!",
     "yarn": "use pnpm please!",
