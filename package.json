@@ -18,14 +18,14 @@
     "@stylistic/eslint-plugin": "^5.6.1",
     "@types/node": "^25.0.2",
     "@vitest/coverage-v8": "^4.0.15",
-    "aws-cdk": "^2.1034.0",
+    "aws-cdk": "^2.1100.0",
     "eslint": "^9.39.2",
     "eslint-import-resolver-typescript": "^4.4.4",
     "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-promise": "^7.2.1",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.49.0",
+    "typescript-eslint": "^8.50.0",
     "vite-tsconfig-paths": "^6.0.1",
     "vitest": "^4.0.15"
   },
@@ -39,5 +39,5 @@
     "yarn": "use pnpm please!",
     "pnpm": ">=8.7.4"
   },
-  "packageManager": "pnpm@10.25.0"
+  "packageManager": "pnpm@10.26.0"
 }
