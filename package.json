@@ -30,7 +30,7 @@
     "vitest": "^4.0.16"
   },
   "dependencies": {
-    "aws-cdk-lib": "^2.232.2",
+    "aws-cdk-lib": "^2.233.0",
     "constructs": "^10.4.4",
     "source-map-support": "^0.5.21"
   },
@@ -39,5 +39,5 @@
     "yarn": "use pnpm please!",
     "pnpm": ">=8.7.4"
   },
-  "packageManager": "pnpm@10.26.0"
+  "packageManager": "pnpm@10.26.1"
 }
