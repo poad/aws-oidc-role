@@ -13,10 +13,10 @@
     "lint-fix": "eslint --fix"
   },
   "devDependencies": {
-    "@eslint/compat": "^2.0.0",
+    "@eslint/compat": "^2.0.1",
     "@eslint/js": "^9.39.2",
-    "@stylistic/eslint-plugin": "^5.6.1",
-    "@types/node": "^25.0.3",
+    "@stylistic/eslint-plugin": "^5.7.0",
+    "@types/node": "^25.0.5",
     "@vitest/coverage-v8": "^4.0.16",
     "aws-cdk": "^2.1100.3",
     "eslint": "^9.39.2",
@@ -26,11 +26,11 @@
     "tsx": "^4.21.0",
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.52.0",
-    "vite-tsconfig-paths": "^6.0.3",
+    "vite-tsconfig-paths": "^6.0.4",
     "vitest": "^4.0.16"
   },
   "dependencies": {
-    "aws-cdk-lib": "^2.233.0",
+    "aws-cdk-lib": "^2.234.1",
     "constructs": "^10.4.4",
     "source-map-support": "^0.5.21"
   },
@@ -39,5 +39,5 @@
     "yarn": "use pnpm please!",
     "pnpm": ">=8.7.4"
   },
-  "packageManager": "pnpm@10.27.0"
+  "packageManager": "pnpm@10.28.0"
 }
