@@ -15,8 +15,8 @@
   "devDependencies": {
     "@eslint/compat": "^2.0.2",
     "@eslint/js": "^10.0.1",
-    "@stylistic/eslint-plugin": "^5.8.0",
-    "@types/node": "^25.2.3",
+    "@stylistic/eslint-plugin": "^5.9.0",
+    "@types/node": "^25.3.0",
     "@vitest/coverage-v8": "^4.0.18",
     "aws-cdk": "^2.1106.1",
     "eslint": "^10.0.0",
@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "aws-cdk-lib": "^2.238.0",
-    "constructs": "^10.5.0",
+    "constructs": "^10.5.1",
     "source-map-support": "^0.5.21"
   },
   "engines": {
