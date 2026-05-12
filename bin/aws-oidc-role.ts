@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-import * as cdk from 'aws-cdk-lib';
 import { AwsOidcRoleStack } from '../lib/aws-oidc-role-stack.js';
+import * as cdk from 'aws-cdk-lib';
 
 const app = new cdk.App();
 
