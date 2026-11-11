@@ -7,25 +7,10 @@ allowBuilds:
 
 minimumReleaseAge: 10080 # 7 days in minutes
 minimumReleaseAgeExclude:
-  - pnpm@12.10.1
-  - source-map-js@1.2.2
-  - '@pnpm/exe.android-arm64@12.10.1'
-  - '@pnpm/exe.android-x64@12.10.1'
-  - '@pnpm/exe.darwin-arm64@12.10.1'
-  - '@pnpm/exe.darwin-x64@12.10.1'
-  - '@pnpm/exe.freebsd-x64@12.10.1'
-  - '@pnpm/exe.linux-arm64-musl@12.10.1'
-  - '@pnpm/exe.linux-arm64@12.10.1'
-  - '@pnpm/exe.linux-ppc64@12.10.1'
-  - '@pnpm/exe.linux-riscv64@12.10.1'
-  - '@pnpm/exe.linux-s390x@12.10.1'
-  - '@pnpm/exe.linux-x64-musl@12.10.1'
-  - '@pnpm/exe.linux-x64@12.10.1'
-  - '@pnpm/exe.win32-arm64@12.10.1'
-  - '@pnpm/exe.win32-x64@12.10.1'
+  - pnpm@12.19.0
 
 overrides:
+  minimatch@>=7.0.0 <11.0.1: ^11.0.1
   semver: '>=7'
-  source-map-js@>=1.0.0 <1.2.2: ^1.2.2
 
 trustPolicy: no-downgrade
